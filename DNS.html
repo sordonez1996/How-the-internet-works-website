@@ -3,8 +3,150 @@
 <head>
     <meta charset="UTF-8">
     <title>DNS</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 <body>
+<!-- Nav Bar Code -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">IP Addresses Packets and Routing</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="teampage.html">Team Page</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="aboutpage.html">About Page</a>
+            </li>
+            <!-- Dropdown Menu -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
+                    Project Files
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="invention.html">Invention</a>
+                    <a class="dropdown-item" href="browser-wars.html">Browser Wars</a>
+                    <a class="dropdown-item" href="internet-search.html">Internet Search</a>
+                    <a class="dropdown-item" href="dot-com-bubble.html">Dot Com Bubble</a>
+                    <a class="dropdown-item" href="people.html">People</a>
+                    <a class="dropdown-item" href="internet-history.html">History of the Internet</a>
+                </div>
+            </li>
+            <!-- Dropdown Menu 2 -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
+                    How The Internet Works
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="">Domain names and ICANN</a>
+                    <a class="dropdown-item active" href="">IP Addresses, Packets and Routing<span class="sr-only">(current)</span></a>
+                    <a class="dropdown-item" href="">DNS</a>
+                    <a class="dropdown-item" href="">HTTP and HTTPS protocols</a>
+                    <a class="dropdown-item" href="">W3C and HTML and CSS</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<!-- Content here -->
+<div class="container mt-3">
+    <div class="row">
+        <div class="col-8">
+            <h1>IP Addresses Packets and Routing</h1>
+            <h4>IP Addresses</h4>
+            <p>Definition: An IP address, or simply an "IP," is a unique address that identifies a device on the
+                Internet or a local network. It allows a system to be recognized by other systems connected via the
+                Internet protocol. There are two primary types of IP address formats used today — IPv4 and IPv6. The
+                address of a connected device in an IP network (TCP/IP network), which is the worldwide standard both
+                in-house and on the Internet. Every desktop and laptop computer, server, scanner, printer, modem,
+                router, smartphone, tablet, and smart TV is assigned an IP address, and every packet (Web, email, video,
+                etc.) traversing an IP network contains a source IP address and a destination IP address. There are four
+                different types of IP addresses: public, private, static, and dynamic. While the public and private are
+                indicative of the location of the network—private being used inside a network while the public is used
+                outside of a network—static and dynamic indicate permanency. An IP address is written in "dotted
+                decimal" notation, which is 4 sets of numbers separated by period each set representing an 8-bit number
+                ranging from (0-255). An example of an IPv4 address is 216.3. 128.12 </p>
+            <p>For example: The dark web refers to encrypted online content that is not indexed by conventional search
+                engines. The dark web has an illegal online black market where criminals can deal with illegal and
+                illicit goods. Many of these exchanges take place using the online cryptocurrency bitcoin, which makes
+                it harder for the authorities to track and capture people participating in these transactions. In 2018,
+                after a yearlong government operation, agents working with the Department of Homeland Security posed as
+                weapons dealers to gain access to the computers of suspects who were trying to purchase weapons
+                illegally. This allowed them to gain access to IP addresses, which they used to track down the
+                geographical locations of additional suspects who were using the dark web. This isn’t the first time IP
+                addresses have led to arrests. In 2012, police used IP addresses to track down and arrest members of the
+                hacking group Lulzsec. Using warrants to obtain information from the Internet Service Provider (ISP),
+                law enforcement personal were able to track down the physical addresses of the hackers and arrest them
+                for their illegal internet activity.</p>
+            <p>Why we use them? The main reason why IP addresses are used is that it handles the logical routable
+                connection from both computers to computer AND network to network.</p>
+            <h4>Packets</h4>
+            <p>Definition: A packet is a small amount of data sent over a network, such as a LAN or the Internet.
+                Similar to a real-life package, each packet includes a source and destination as well as the content (or
+                data) being transferred. When the packets reach their destination, they are reassembled into a single
+                file or another contiguous block of data. While the exact structure of a packet varies between
+                protocols, a typical packet includes two sections — a header and payload. </p>
+            <p>For example: Every Web page that you receive comes as a series of packets, and every e-mail you send
+                leaves as a series of packets. Networks that ship data around in small packets are called
+                packet-switched networks</p>
+            <p>Why we use them? Theoretically, it could be possible to send files and data over the Internet without
+                chopping them down into small packets of information. One computer could send data to another computer
+                in the form of a long unbroken line of bits (small units of information, communicated as pulses of
+                electricity that computers can interpret). However, such an approach quickly becomes impractical when
+                more than two computers are involved. While the long line of bits passed over the wires between the two
+                computers, no third computer could use those same wires to send information — it would have to wait its
+                turn. In contrast to this approach, the Internet is a "packet switching" network. Packet switching
+                refers to the ability to network equipment to process packets independently from each other. It also
+                means that packets can take different network paths to the same destination, so long as they all arrive
+                at the destination. (In certain protocols, packets do need to arrive at their final destinations in the
+                correct order, even if each packet took a different route to get there.) Because of packet switching,
+                packets from multiple computers can travel over the same wires in basically any order. This enables
+                multiple connections to take place over the same networking equipment at the same time. As a result,
+                billions of devices can exchange data on the Internet at the same time, instead of just a handful.</p>
+            <h4>Routing</h4>
+            <p>Definition: Network routing is the process of selecting a path across one or more networks. The
+                principles of routing can apply to any type of network, from telephone networks to public
+                transportation. In packet-switching networks, such as the Internet, routing selects the paths for
+                Internet Protocol (IP) packets to travel from their origin to their destination. These Internet routing
+                decisions are made by specialized pieces of network hardware called routers.</p>
+            <p>Examples: A router provides you with internet access by connecting your LAN with the Internet. </p>
+            <p>Why we use them? A router helps you connect multiple devices to the Internet and connect the devices.
+                Also, you can use routers to create local networks of devices. These local networks are useful if you
+                want to share files among devices or allow employees to share software tools. If you don’t have routers,
+                your business's data won’t get directed to the right place. For example, if you'd like to print a
+                document, you need a router to help get that document to a printer—not to another computer or a
+                scanner.</p>
+            <h4>Sources:</h4>
+            <a href=""></a>
+        </div>
+        <div class="col-4 mt-3">
+            <div class="card" style="width: 24rem;">
+                <img class="card-img-top" src="image_IP_Address_and_Routing/pexels-brett-sayles-2425567.jpg"
+                     alt="Domain_Names_ICANN">
+                <div class="card-body">
+                    <p class="card-text"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- JavaScript For Team Page -->
+<script language="JavaScript" type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
 </html>
