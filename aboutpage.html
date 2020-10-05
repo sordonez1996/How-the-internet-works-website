@@ -9,9 +9,8 @@
           integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 <body>
-
 <!-- Nav Bar Code -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="index.html">How the Internet Works</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,15 +19,16 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-            <a class="nav-link" href="index.html">Home</a>
-            </li>
-                <a class="nav-link" href="teampage.html">Team Page</a>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                            <li class="nav-item active">
+                <a class="nav-link" href="teampage.html">Team Page</a>
+            </li>
+            <li class="nav-item active">
                 <a class="nav-link" href="aboutpage.html">About Page</a>
             </li>
-            <!-- Dropdown Menu
+            <!--
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                    aria-haspopup="true" aria-expanded="false">
@@ -62,30 +62,23 @@
     </div>
 </nav>
 
-
-
-<!-- Image Carousel -->
-<div id="carousel" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-        <!-- Carousel Images -->
-        <div class="carousel-item active">
-            <img src="about-page-image/pexels-josh-sorenson-1714208.jpg" class="d-block w-100" alt="wires">
-            <div class="carousel-caption text-left">
-                <div class="container mt-3">
+<!-- Content here -->
+<div class="container mt-3">
     <div class="row">
         <div class="col-8">
-                <h1> About Page</h1>
-                <p>This website is an assignment for a graduate level course, IS 601 - Web Systems Development. This course
+            <h1>About Page</h1>
+            <p>This website is an assignment for a graduate level course, IS 601 - Web Systems Development. This course
                 is
                 offered at New Jersey Institute of Technology in Newark New Jersey. </p>
-                <p>The purpose of this website is to gain a
+
+            <p>The purpose of this website is to gain a
                 better understanding of the history of the internet. Sections of the website include Domain names/ICANN, IP Addresses, Packets/Routing, DNS, HTTP/HTTPS protocols, and W3C/HTML/CSS. These sections
                 are based of
                 from
                 videos and the powerpoint slides given to us from the assignment. We hope you find this useful in trying
                 to get
                 a better understanding of How The Internet Works.</p>
-            </div>
+        </div>
         <div class="col-4 mt-3">
             <div class="card" style="width: 24rem;">
                 <img class="card-img-top" src="about-page-image/pexels-oleg-magni-2058128.jpg" alt="About Page Image">
@@ -94,11 +87,11 @@
                 </div>
             </div>
         </div>
-        </div>
     </div>
 </div>
-<!-- JavaScript For Home Page -->
-<script language="JavaScript" type="text/javascript" src="js/bootstrap.min.js"></script>
+</div>
 
+<!-- JavaScript For Team Page -->
+<script language="JavaScript" type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
 </html>
