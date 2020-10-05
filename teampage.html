@@ -2,16 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>TeamPage</title>
-
+    <title>How The Internet Works</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
           integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 <body>
+
 <!-- Nav Bar Code -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="index.html">History of the Internet</a>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">How the Internet Works</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -19,16 +20,15 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="index.html">Home</a>
             </li>
-            <li class="nav-item active">
+           <li class="nav-item active">
                 <a class="nav-link" href="teampage.html">Team Page</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="aboutpage.html">About Page</a>
             </li>
-            <!-- Dropdown Menu -->
+            <!-- Dropdown Menu
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                    aria-haspopup="true" aria-expanded="false">
@@ -43,7 +43,8 @@
                     <a class="dropdown-item" href="internet-history.html">History of the Internet</a>
                 </div>
             </li>
-            <!-- Dropdown Menu 2 -->
+            -->
+             <!-- Dropdown Menu 2 -->
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown"
                    aria-haspopup="true" aria-expanded="false">
@@ -61,15 +62,20 @@
     </div>
 </nav>
 
+
+<!-- Image Carousel -->
+<div id="carousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <!-- Carousel Images -->
+        <div class="carousel-item active">
+            <img src="teampage-images/pexels-josh-sorenson-1714208.jpg" class="d-block w-100" alt="wires">
+            <div class="carousel-caption text-left">
 <div class="d-flex flex-row justify-content-left mb-3">
     <div class="container mt-3">
         <div class="row">
              <div class="col-4">
                 <div class="card" style="width: 18rem;">
                     <img src="teampage-images/DSC_0928.JPG" class="card-img-top" alt="Stanley's Profile Picture">
-                    <div class="card-body">
-                        <a href="https://www.linkedin.com/in/stanley-ordonez/" class="btn btn-primary">View Linkedin</a>
-                    </div>
                 </div>
             </div>
             <div class="col-8">
@@ -82,12 +88,17 @@
                     path
                     in the field of Technology.
                 </p>
+                <a href="https://www.linkedin.com/in/stanley-ordonez/" class="btn btn-primary">View Linkedin</a>
             </div>
         </div>
     </div>
 </div>
-
-<!-- JavaScript For Team Page -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- JavaScript For Home Page -->
 <script language="JavaScript" type="text/javascript" src="js/bootstrap.min.js"></script>
+
 </body>
 </html>
