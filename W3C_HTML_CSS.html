@@ -3,8 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <title>W3C_HTML_CSS</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 <body>
+<!-- Nav Bar Code -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">W3C and HTML and CSS</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="teampage.html">Team Page</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="aboutpage.html">About Page</a>
+            </li>
+            <!-- Dropdown Menu -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
+                    How The Internet Works
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="">Domain names and ICANN</a>
+                    <a class="dropdown-item" href="">IP Addresses, Packets and Routing<span
+                            class="sr-only">(current)</span></a>
+                    <a class="dropdown-item" href="">DNS</a>
+                    <a class="dropdown-item" href="">HTTP and HTTPS protocols</a>
+                    <a class="dropdown-item active" href="">W3C and HTML and CSS</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<!-- Content here -->
+<div class="container mt-3">
+    <div class="row">
+        <div class="col-8">
+            <h1>W3C</h1>
+            <p>Definition: The World Wide Web Consortium (W3C) is an international organization committed to improving
+                the web. It is made up of several hundred member organizations from a variety of related IT industries.
+                W3C sets standards for the World Wide Web (WWW) to facilitate interoperability and cooperation among all
+                web stakeholders.</p>
+            <p>Example: </p>
+            <p>Why we use them? </p>
+            <h1>HTML</h1>
+            <p>Definition: Stands for "Hypertext Markup Language." HTML is the language used to create webpages.
+                "Hypertext" refers to the hyperlinks that an HTML page may contain. "Markup language" refers to the way
+                tags are used to define the page layout and elements within the page.</p>
+            <p>Example:</p>
+            <p>Why we use them? In the video (The Internet - HTTPP and HTML Part 5), the narrator explains "So if you're
+                trying to log into Tumblr and load our login page, all you're doing is sending a get request to Tumblr
+                server that says get slash login. And that tells tumbler server that you want all of the HTML code for
+                the tumbler login page to HTML stands for hypertext markup language. And you can think of that as the
+                language that you use to tell a web browser how to make a page look. So if you think about something
+                like Wikipedia, which is really just a big, simple document, and HTML is the language that you use to
+                make that title big and bold to make the font, the right font, to link certain texts, to certain other
+                pages, to make some text bold, to make some text italic, to put an image in the middle of the page, to
+                align the image to the right, to align the image to the left." 01:59 </p>
+            <h1>CSS</h1>
+            <p>Definition: Stands for "Cascading Style Sheet." Cascading style sheets are used to format the layout of
+                Web pages. They can be used to define text styles, table sizes, and other aspects of Web pages that
+                previously could only be defined in a page's HTML.</p>
+            <p>For example: CSS can be used to define the cell padding of table cells, the style, thickness, and color
+                of a table's border, and the padding around images or other objects.</p>
+            <p>Why we use them? CSS helps Web developers create a uniform look across several pages of a Web site.
+                Instead of defining the style of each table and each block of text within a page's HTML, commonly used
+                styles need to be defined only once in a CSS document. Once the style is defined in cascading style
+                sheet, it can be used by any page that references the CSS file.</p>
+
+
+            <h4>Sources:</h4>
+            <a href="https://www.techopedia.com/definition/4593/world-wide-web-consortium-w3c">https://www.techopedia.com/definition/4593/world-wide-web-consortium-w3c</a>
+            <a href="https://techterms.com/definition/css">https://techterms.com/definition/css</a>
+            <a href="https://techterms.com/definition/html">https://techterms.com/definition/html</a>
+            <a href="">The Internet - HTTPP and HTML Part 5</a>
+
+        </div>
+        <div class="col-4 mt-3">
+            <div class="card" style="width: 24rem;">
+                <img class="card-img-top" src="Image_DNS/pexels-pixabay-373543.jpg"
+                     alt="Domain_Names_DNS">
+                <div class="card-body">
+                    <p class="card-text">Image of DNS</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- JavaScript For Team Page -->
+<script language="JavaScript" type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
 </html>
