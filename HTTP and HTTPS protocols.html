@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTTP and HTTPS protocols</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+<!-- Nav Bar Code -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">How the Internet Works</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="aboutpage.html">About Us</a>
+            </li>
+            <!-- Dropdown Menu -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
+                    How The Internet Works
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="Domain_names_ICANN.html">Domain names and ICANN</a>
+                    <a class="dropdown-item" href="IP_Address_Packets_and_Routing.html">IP Addresses, Packets and Routing<span
+                            class="sr-only">(current)</span></a>
+                    <a class="dropdown-item" href="DNS.html">DNS</a>
+                    <a class="dropdown-item active" href="HTTP%20and%20HTTPS%20protocols.html">HTTP and HTTPS protocols</a>
+                    <a class="dropdown-item" href="W3C_HTML_CSS.html">W3C and HTML and CSS</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<!-- Content here -->
+<div class="container mt-3">
+    <div class="row">
+        <div class="col-8">
+            <h1>HTTP Protocol</h1>
+            <b><p>Definition:</b> HTTP (Hypertext Transfer Protocol) is the protocol used to transfer data over the web.
+            It is
+            part of the Internet protocol suite and defines commands and services used for transmitting webpage
+            data. HTTP uses a server-client model. A client, for example, may be a home computer, laptop, or mobile
+            device. The HTTP server is typically a web host running web server software, such as Apache or IIS. When
+            you access a website, your browser sends a request to the corresponding web server and it responds with
+            an HTTP status code. If the URL is valid and the connection is granted, the server will send your
+            browser the webpage and related files. In <b>(The Internet – HTTPP and HTML Part 5)</b>, the narrtor states
+            <i>"The browser sends separate HTTP requests for each of these and displays them as they arrive. If a
+                webpage has a lot of different images, each of them causes a separate HTTP request and the page loads
+                slower. Now, sometimes when you browse the web, you're not just requesting pages with get requests.
+                Sometimes you send information like when you fill out a form or type of search query, your browser sends
+                this information in plain text to the web server using an HTTP post requests." 02:58 </i></p>
+            <b><p>For example:</b> HTTP is the most common protocol you see on the Internet. It provides the gateway for
+            community between your computer or device, the client, and the website or online resource found on a
+            server. Typically, when you click on a result in a search engine or type a URL into your browser, you're
+            making an HTTP request. Most websites that don't need to protect information use HTTP, including news
+            websites, blogs, business sites and even advertisement pop-ups.</p>
+            <b><p>Why we use them?</b> HTTP is a TCP/IP based communication protocol is used to deliver data (HTML
+            files, image
+            files, query results, etc.) on the World Wide Web.</p>
+            <h1>HTTPS Protocol</h1>
+            <b><p>Definition:</b> Hypertext transfer protocol secure (HTTPS) is the secure version of HTTP, which is the
+            primary protocol used to send data between a web browser and a website. HTTPS is encrypted in order to
+            increase security of data transfer. This is particularly important when users transmit sensitive data,
+            such as by logging into a bank account, email service, or health insurance provider. In <b>(The Internet –
+            HTTPP and HTML Part 5)</b>, the narrtor states <i>"When you see the little luck that appears in your browser
+            address bar next to the HTTPS, the HTTPS protocols ensure that your HTPP requests are secure and
+            protected". 05:18</i></p>
+            <b><p>For example:</b> HTTP Secure is an extension of HTTP with an extra protocol that encrypts and protects
+            your
+            information. This protocol requires that you authenticate yourself with the website, which helps to
+            protect any sensitive information shared between you and the Web server. Websites that use HTTPS include
+            banks, email clients and e-commerce sites. When you log in to these sites, you often see "https" in the
+            protocol portion of the URL.</p>
+            <b><p>Why we use them?</b> HTTPS protects the communication between your browser and server from being
+            intercepted
+            and tampered with by attackers. This provides confidentiality, integrity and authentication to the vast
+            majority of today's WWW traffic. Any website that shows a lock icon in the address bar is using
+            HTTPS.</p>
+            <h4>Sources:</h4>
+            <p><a href="https://techterms.com/definition/http">https://techterms.com/definition/http</a></p>
+            <p><a href="https://smallbusiness.chron.com/examples-hypertext-transfer-protocols-72578.html">https://smallbusiness.chron.com/examples-hypertext-transfer-protocols-72578.html</a>
+            </p>
+            <p><a href="https://www.tutorialspoint.com/http/http_overview.htm">https://www.tutorialspoint.com/http/http_overview.htm</a>
+            </p>
+            <p><a href="https://www.cloudflare.com/learning/ssl/what-is-https/">https://www.cloudflare.com/learning/ssl/what-is-https/</a>
+            </p>
+            <p><a href="https://ahrefs.com/blog/what-is-https/">https://ahrefs.com/blog/what-is-https/</a></p>
+                        <p><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fboylanpoint.com%2Fhttp-vs-https%2F&psig=AOvVaw2xXG_Y91Beq0P-1_0ulbFL&ust=1602200590771000&source=images&cd=vfe&ved=0CA0QjhxqFwoTCKDxxbvUo-wCFQAAAAAdAAAAABAD">HTTP vs HTTPS image source</a></p>
+            <p><a href="https://njit.instructure.com/courses/12731/files/1130420?module_item_id=334797">The Internet -
+                HTTPP and HTML Part 5</a></p>
+
+        </div>
+        <div class="col-4 mt-3">
+            <div class="card" style="width: 24rem;">
+                <img class="card-img-top" src="image-HTTP_HTTPS_Protocols/http-vs-https-845x321.jpg"
+                     alt="Domain_Names_HTTP_HTTPS_Protocols">
+                <div class="card-body">
+                    <p class="card-text">Image above explains the difference between HTTP and HTTPS Protocols</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- JavaScript For HTTP_HTTPS_Protocols -->
+<script language="JavaScript" type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
